@@ -1,0 +1,4 @@
+Terminalde modes_gui yazilarak calistirilir. (apps altindan degil!)
+modes_gui kurulabilmesi icin pycui4 gerekli. Bu bilgi make yaparken yaziyor. 
+pycui4 bulunamazsa gui kurulmuyor. pycui4 kurmak icin de 
+sudo apt-get install pyqt4-dev-tools kurmak gerek! 

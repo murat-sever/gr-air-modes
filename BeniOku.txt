@@ -1,3 +1,5 @@
+Kurulum yaparken gr37 etiketi checkout edildi. Yoksa GR3.8 ariyor!
+
 Terminalde modes_gui yazilarak calistirilir. (apps altindan degil!)
 modes_gui kurulabilmesi icin pycui4 gerekli. Bu bilgi make yaparken yaziyor. 
 pycui4 bulunamazsa gui kurulmuyor. pycui4 kurmak icin de 

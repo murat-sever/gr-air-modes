@@ -4,3 +4,7 @@ Terminalde modes_gui yazilarak calistirilir. (apps altindan degil!)
 modes_gui kurulabilmesi icin pycui4 gerekli. Bu bilgi make yaparken yaziyor. 
 pycui4 bulunamazsa gui kurulmuyor. pycui4 kurmak icin de 
 sudo apt-get install pyqt4-dev-tools kurmak gerek! 
+
+docker build ettikten sonra network erisimi de vererek USRP'yi gordu ve mesaj cozdu. 
+docker run --rm --network host --name mygr gr37:0.1 modes_rx 
+

@@ -7,4 +7,4 @@ WORKDIR /opt
 RUN mkdir gr-air-modes
 COPY . gr-air-modes/
 WORKDIR /opt/gr-air-modes
-RUN mkdir build && cd build && cmake ../ && make -j${num_threads} && make install && ldconfig
+RUN rm -rf build && mkdir build && cd build && cmake ../ && make -j${num_threads} && make install && ldconfig
